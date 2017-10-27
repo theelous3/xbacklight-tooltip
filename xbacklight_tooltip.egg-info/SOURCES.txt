@@ -1,6 +1,0 @@
-setup.py
-bin/xbacklight_tooltip
-xbacklight_tooltip.egg-info/PKG-INFO
-xbacklight_tooltip.egg-info/SOURCES.txt
-xbacklight_tooltip.egg-info/dependency_links.txt
-xbacklight_tooltip.egg-info/top_level.txt
