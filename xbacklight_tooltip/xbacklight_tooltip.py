@@ -45,7 +45,6 @@ class app(Gtk.Window):
         else:
             direction = '-dec'
             if self.current_brightness > 0.1:
-                print(self.current_brightness)
                 brightness_adjust = (-0.1)
             else:
                 brightness_adjust = 0
