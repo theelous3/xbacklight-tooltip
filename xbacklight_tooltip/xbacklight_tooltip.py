@@ -15,19 +15,21 @@ class app(Gtk.Window):
 
         self.brightness_mod = brightness_mod
         self.current_brightness = self.poll_brightness()
+        self.set_size_request(250, 40)
 
         self.set_resizable(False)
-        self.set_size_request(150, 30)
 
-        self.vbox = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        self.vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         self.add(self.vbox)
 
-        label = Gtk.Label("XBL:  ")
-        self.vbox.pack_start(label, False, False, 0)
+        label = Gtk.Label("XBL")
 
         self.progressbar = Gtk.ProgressBar()
-        self.vbox.pack_start(self.progressbar, True, True, 0)
         self.progressbar.set_fraction(self.current_brightness)
+
+        self.add(self.vbox)
+        self.vbox.pack_start(label, True, True, 0)
+        self.vbox.pack_start(self.progressbar, True, True, 0)
 
         self.timeout_lifespan = GObject.timeout_add(500, self.on_timeout, None)
         self.timeout_show_mod = GObject.timeout_add(100, self.modify_brightness, None)
