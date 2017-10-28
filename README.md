@@ -13,6 +13,8 @@ It currently looks like ass!
 ### Requirements
 
 python > 3.x.x
+python GTK3 stuff
+xbacklight, of course :D
 
 ### Instalation
 
