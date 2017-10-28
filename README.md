@@ -7,7 +7,7 @@ A small GTK3 tooltippy gui that displays modifications to your screen brightness
 
 It currently looks like ass!
 
-![wooo](https://i.imgur.com/oueL6w0.png "Logo Title Text 1")
+![wooo](https://i.imgur.com/SoWceZT.png "So visual")
 
 
 ### Requirements
