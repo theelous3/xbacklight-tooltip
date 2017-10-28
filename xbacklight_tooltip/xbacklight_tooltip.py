@@ -20,7 +20,6 @@ class app(Gtk.Window):
         self.set_resizable(False)
 
         self.vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
-        self.add(self.vbox)
 
         label = Gtk.Label("XBL")
 

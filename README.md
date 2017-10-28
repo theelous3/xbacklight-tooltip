@@ -24,7 +24,8 @@ xbacklight, of course :D
 ### Usage
 
 `$ xbl-tooltip -u` increases luminosity
-`$ xbl-tooltip -u` decreases luminosity
+
+`$ xbl-tooltip -d` decreases luminosity
 
 That's it!
 
